@@ -1,5 +1,10 @@
-# Project 1: Model Evaluation & Validation
+# MLND Project 1: Model Evaluation & Validation
 ## Predicting Boston Housing Prices
+
+## Disclaimer
+This project is an implementation of a project where most of the code is provided by Udacity for the Machine Learning [Nanodegree program](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009).
+
+In this project, a **Decision Tree Regressor** is fit with the Boston Housing Dataset, and a regression coefficient is used to score the maximum depth to be best used when building the regression tree.
 
 ### Install
 
