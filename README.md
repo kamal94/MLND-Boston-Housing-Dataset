@@ -1,11 +1,9 @@
-# MLND Project 1: Model Evaluation & Validation
+# Predicting Boston Housing Prices
+### Machine Learning Engineer Nanodegree
 
-## Disclaimer
-This project is an implementation of a project where most of the code is provided by Udacity for the Machine Learning [Nanodegree program](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009).
+This project evaluated the performance and predictive power of a model that has been trained and tested on data collected from homes in suburbs of Boston, Massachusetts. A model trained on this data that is seen as a good fit could then be used to make certain predictions about a home — in particular, its monetary value. This model would prove to be invaluable for someone like a real estate agent who could make use of such information on a daily basis.
 
-In this project, a **Decision Tree Regressor** is fit with the Boston Housing Dataset, and a regression coefficient is used to score the maximum depth to be best used when building the regression tree.
-
-## Predicting Boston Housing Prices
+In this project, a _decision tree regressor_ is fit with the Boston Housing Dataset, and a regression coefficient is used to score the maximum depth to be best used when building the regression tree.
 
 ### Install
 
@@ -17,11 +15,12 @@ This project requires **Python 2.7** and the following Python libraries installe
 
 You will also need to have software installed to run and execute an [iPython Notebook](http://ipython.org/notebook.html)
 
-Udacity recommends our students install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project. 
+[Anaconda](https://www.continuum.io/downloads) is a pre-packaged Python distribution that contains all of the necessary libraries and software for this project. 
 
 ### Code
 
-Template code is provided in the `boston_housing.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `housing.csv` dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project.
+Code is provided in the `boston_housing.ipynb` notebook file. Some support files `visuals.py` are also included.
+
 
 ### Run
 
@@ -35,3 +34,9 @@ This will open the iPython Notebook software and project file in your browser.
 ### Data
 
 The dataset used in this project is included with the scikit-learn library ([`sklearn.datasets.load_boston`](http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_boston.html#sklearn.datasets.load_boston)). You do not have to download it separately. You can find more information on this dataset from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Housing) page.
+
+# Techniques and concepts used:
+	* Machine Learning
+	* Supervised Learning
+	* Regression
+	* Decision Trees.
